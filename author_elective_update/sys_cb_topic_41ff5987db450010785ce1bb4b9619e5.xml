@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <category display_value="Virtual Agent topics for the NeedIt application">cf4e1947db450010785ce1bb4b961962</category>
+        <connect_queue/>
+        <description>update those needit records</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.13",
+  "goals": {
+    "34a2e1806ea34ca39f6263ff1ea72a66": {
+      "id": "34a2e1806ea34ca39f6263ff1ea72a66",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "11675a2e879a4ecd9ec67526b02ce282": {
+          "id": "11675a2e879a4ecd9ec67526b02ce282",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "78711daa23734fab9b1bc92995eaf4e0": {
+          "id": "78711daa23734fab9b1bc92995eaf4e0",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "f0431fafb05241ea8a66f240b1e1c378",
+          "edgeType": "Edge",
+          "source": "11675a2e879a4ecd9ec67526b02ce282",
+          "target": "78711daa23734fab9b1bc92995eaf4e0",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph>
+        <key_phrases>Update NeedIt Records,needit request</key_phrases>
+        <live_agent>false</live_agent>
+        <name>Update NeedIt Records</name>
+        <nlu_intent/>
+        <nlu_model/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-15 18:42:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>41ff5987db450010785ce1bb4b9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update NeedIt Records</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_41ff5987db450010785ce1bb4b9619e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-15 18:42:14</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=41ff5987db450010785ce1bb4b9619e5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>c7d63614db0ed7080e785d00cf96197d</instance_id>
+        <instance_name>dev58746</instance_name>
+        <name>sys_cb_topic_41ff5987db450010785ce1bb4b9619e5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><category display_value="Virtual Agent topics for the NeedIt application">cf4e1947db450010785ce1bb4b961962</category><connect_queue/><description>update those needit records</description><flexible_conversation_switching>false</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.13",
+  "goals": {
+    "34a2e1806ea34ca39f6263ff1ea72a66": {
+      "id": "34a2e1806ea34ca39f6263ff1ea72a66",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "11675a2e879a4ecd9ec67526b02ce282": {
+          "id": "11675a2e879a4ecd9ec67526b02ce282",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "78711daa23734fab9b1bc92995eaf4e0": {
+          "id": "78711daa23734fab9b1bc92995eaf4e0",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "f0431fafb05241ea8a66f240b1e1c378",
+          "edgeType": "Edge",
+          "source": "11675a2e879a4ecd9ec67526b02ce282",
+          "target": "78711daa23734fab9b1bc92995eaf4e0",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph><key_phrases>Update NeedIt Records,needit request</key_phrases><live_agent>false</live_agent><name>Update NeedIt Records</name><nlu_intent/><nlu_model/><nlu_provider/><roles/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-15 18:42:14</sys_created_on><sys_domain>global</sys_domain><sys_id>41ff5987db450010785ce1bb4b9619e5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Update NeedIt Records</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_cb_topic_41ff5987db450010785ce1bb4b9619e5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-15 18:42:14</sys_updated_on><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=41ff5987db450010785ce1bb4b9619e5"/></record_update>]]></payload>
+        <payload_hash>-255496708</payload_hash>
+        <record_name>Update NeedIt Records</record_name>
+        <reverted_from/>
+        <source>bb46d58bdbc10010785ce1bb4b9619dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-15 18:42:14</sys_created_on>
+        <sys_id>81ff11c7db450010785ce1bb4b9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e705f76db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-15 18:42:14</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>c9ff11c75b4500104f207c32bb59bfa1</update_guid>
+        <update_guid_history>c9ff11c75b4500104f207c32bb59bfa1:-255496708</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-15 19:01:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>68af616989a74720bb823f513ccfb900</sys_id>
+        <sys_metadata>41ff5987db450010785ce1bb4b9619e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update NeedIt Records</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_41ff5987db450010785ce1bb4b9619e5</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_41ff5987db450010785ce1bb4b9619e5">81ff11c7db450010785ce1bb4b9619a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-15 19:01:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

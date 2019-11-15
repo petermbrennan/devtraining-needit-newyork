@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <category display_value="Virtual Agent topics for the NeedIt application">cf4e1947db450010785ce1bb4b961962</category>
+        <connect_queue/>
+        <description>Topic to allow users to view their open NeedIt records</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.13",
+  "goals": {
+    "dab93bcbc807422b9075fa3e798deac2": {
+      "id": "dab93bcbc807422b9075fa3e798deac2",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "21677d94f5344ea6b0709c5fd6affab8": {
+          "id": "21677d94f5344ea6b0709c5fd6affab8",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "1c5a6bdb4e244f6498e6b62bc48169c3": {
+          "id": "1c5a6bdb4e244f6498e6b62bc48169c3",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "ede64909f4524acfa2f5e47299e99920",
+          "edgeType": "Edge",
+          "source": "21677d94f5344ea6b0709c5fd6affab8",
+          "target": "1c5a6bdb4e244f6498e6b62bc48169c3",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph>
+        <key_phrases>View Open NeedIt Records,NeedIt Requests,need something</key_phrases>
+        <live_agent>false</live_agent>
+        <name>View Open NeedIt Records</name>
+        <nlu_intent/>
+        <nlu_model/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-15 18:40:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8f7f5143db450010785ce1bb4b9619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View Open NeedIt Records</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_8f7f5143db450010785ce1bb4b9619c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-15 18:40:11</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=8f7f5143db450010785ce1bb4b9619c5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>c7d63614db0ed7080e785d00cf96197d</instance_id>
+        <instance_name>dev58746</instance_name>
+        <name>sys_cb_topic_8f7f5143db450010785ce1bb4b9619c5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><category display_value="Virtual Agent topics for the NeedIt application">cf4e1947db450010785ce1bb4b961962</category><connect_queue/><description>Topic to allow users to view their open NeedIt records</description><flexible_conversation_switching>false</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.13",
+  "goals": {
+    "dab93bcbc807422b9075fa3e798deac2": {
+      "id": "dab93bcbc807422b9075fa3e798deac2",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "21677d94f5344ea6b0709c5fd6affab8": {
+          "id": "21677d94f5344ea6b0709c5fd6affab8",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "1c5a6bdb4e244f6498e6b62bc48169c3": {
+          "id": "1c5a6bdb4e244f6498e6b62bc48169c3",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "ede64909f4524acfa2f5e47299e99920",
+          "edgeType": "Edge",
+          "source": "21677d94f5344ea6b0709c5fd6affab8",
+          "target": "1c5a6bdb4e244f6498e6b62bc48169c3",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph><key_phrases>View Open NeedIt Records,NeedIt Requests,need something</key_phrases><live_agent>false</live_agent><name>View Open NeedIt Records</name><nlu_intent/><nlu_model/><nlu_provider/><roles/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-15 18:40:11</sys_created_on><sys_domain>global</sys_domain><sys_id>8f7f5143db450010785ce1bb4b9619c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>View Open NeedIt Records</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_cb_topic_8f7f5143db450010785ce1bb4b9619c5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-15 18:40:11</sys_updated_on><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=8f7f5143db450010785ce1bb4b9619c5"/></record_update>]]></payload>
+        <payload_hash>-1510267085</payload_hash>
+        <record_name>View Open NeedIt Records</record_name>
+        <reverted_from/>
+        <source>bb46d58bdbc10010785ce1bb4b9619dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-15 18:40:12</sys_created_on>
+        <sys_id>877f5987db450010785ce1bb4b9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e705d97310000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-15 18:40:12</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>cf7f5987064500102dc74cc08562c1db</update_guid>
+        <update_guid_history>cf7f5987064500102dc74cc08562c1db:-1510267085</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-15 19:01:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>056c085f36044ef9806604c565e838c1</sys_id>
+        <sys_metadata>8f7f5143db450010785ce1bb4b9619c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View Open NeedIt Records</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_8f7f5143db450010785ce1bb4b9619c5</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_8f7f5143db450010785ce1bb4b9619c5">877f5987db450010785ce1bb4b9619dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-15 19:01:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
