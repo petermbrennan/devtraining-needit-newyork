@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2019-11-18 21:27:55">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 21:03:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c71d1504dbd50010785ce1bb4b96195e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PA Active Weekly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_portal_page_c71d1504dbd50010785ce1bb4b96195e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 21:04:22</sys_updated_on>
+        <title>PA Active Weekly</title>
+        <user/>
+        <view>pa_new_tab_2_2</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Active Weekly">c71d1504dbd50010785ce1bb4b96195e</page>
+                <summary>NeedIt requests breakdown weekly</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2019-11-18 21:06:44</sys_created_on>
+                <sys_id>3acddd44dbd50010785ce1bb4b96199b</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2019-11-18 21:07:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-11-18 16:06:44">3acddd44dbd50010785ce1bb4b96199b</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-18 21:06:44</sys_created_on>
+                        <sys_id>32cddd44dbd50010785ce1bb4b96199c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-18 21:06:44</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-11-18 16:06:44">3acddd44dbd50010785ce1bb4b96199b</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-18 21:06:44</sys_created_on>
+                        <sys_id>7acddd44dbd50010785ce1bb4b96199c</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-18 21:07:42</sys_updated_on>
+                        <value>NeedIt requests breakdown weekly</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_time</name>
+                        <portal_section display_value="Created 2019-11-18 16:06:44">3acddd44dbd50010785ce1bb4b96199b</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-18 21:06:44</sys_created_on>
+                        <sys_id>b6cddd44dbd50010785ce1bb4b96199c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-18 21:06:44</sys_updated_on>
+                        <value>0</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-11-18 16:06:44">3acddd44dbd50010785ce1bb4b96199b</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-18 21:06:44</sys_created_on>
+                        <sys_id>bacddd44dbd50010785ce1bb4b96199b</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-18 21:07:42</sys_updated_on>
+                        <value>9bcd5544dbd50010785ce1bb4b96199f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2019-11-18 16:06:44">3acddd44dbd50010785ce1bb4b96199b</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-18 21:06:44</sys_created_on>
+                        <sys_id>becddd44dbd50010785ce1bb4b96199c</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-18 21:07:42</sys_updated_on>
+                        <value>pa_widgets</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-11-18 16:06:44">3acddd44dbd50010785ce1bb4b96199b</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-18 21:06:44</sys_created_on>
+                        <sys_id>f2cddd44dbd50010785ce1bb4b96199c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-18 21:06:44</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Active Weekly">c71d1504dbd50010785ce1bb4b96195e</page>
+                <summary>NeedIt WEekly  Time series</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2019-11-18 21:08:32</sys_created_on>
+                <sys_id>5d3e5184dbd50010785ce1bb4b961920</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2019-11-18 21:08:56</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-11-18 16:08:32">5d3e5184dbd50010785ce1bb4b961920</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-18 21:08:32</sys_created_on>
+                        <sys_id>193e5184dbd50010785ce1bb4b961921</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-18 21:08:32</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-11-18 16:08:32">5d3e5184dbd50010785ce1bb4b961920</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-18 21:08:32</sys_created_on>
+                        <sys_id>553e5184dbd50010785ce1bb4b961921</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-18 21:08:32</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-11-18 16:08:32">5d3e5184dbd50010785ce1bb4b961920</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-18 21:08:32</sys_created_on>
+                        <sys_id>9d3e5184dbd50010785ce1bb4b961921</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-18 21:08:56</sys_updated_on>
+                        <value>NeedIt WEekly  Time series</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2019-11-18 16:08:32">5d3e5184dbd50010785ce1bb4b961920</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-18 21:08:32</sys_created_on>
+                        <sys_id>d13e5184dbd50010785ce1bb4b961922</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-18 21:08:56</sys_updated_on>
+                        <value>pa_widgets</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_time</name>
+                        <portal_section display_value="Created 2019-11-18 16:08:32">5d3e5184dbd50010785ce1bb4b961920</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-18 21:08:32</sys_created_on>
+                        <sys_id>d93e5184dbd50010785ce1bb4b961921</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-18 21:08:32</sys_updated_on>
+                        <value>0</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-11-18 16:08:32">5d3e5184dbd50010785ce1bb4b961920</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-18 21:08:32</sys_created_on>
+                        <sys_id>dd3e5184dbd50010785ce1bb4b961920</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-18 21:08:56</sys_updated_on>
+                        <value>653e9984dbd50010785ce1bb4b961940</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>
